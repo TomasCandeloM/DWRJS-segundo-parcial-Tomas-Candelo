@@ -1,0 +1,35 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-meal {
+    display: flex;
+    flex-direction: column;
+    alaign-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 200px;
+    width:  200px;
+    
+}
+
+.card-background-meal {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#image-meal {
+    flex: 1;
+    background-size: cover;
+    padding: 4px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-size: 100%;
+    background-position: center;
+}

@@ -1,0 +1,17 @@
+.barra-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icono-busqueda {
+    margin-right: 25px;
+  }
+  
+  input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 900px;
+  }

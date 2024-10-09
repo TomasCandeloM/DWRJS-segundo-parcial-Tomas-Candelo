@@ -1,0 +1,69 @@
+.meal-detail-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 2rem;
+    max-width: 900px; 
+    margin: 0 auto; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+.meal-detail-container h1 {
+    margin-bottom: 1rem; 
+    font-size: 2rem; 
+    color: #333; 
+    text-align: center;
+}
+
+.meal-content {
+    display: flex; 
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.meal-detail-container img {
+    width: 300px;
+    max-height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-right: 45px; 
+}
+
+.meal-description {
+    padding-left: 0;
+}
+
+.meal-description h2 {
+    margin: 0.5rem 0; 
+    font-size: 1.5rem; 
+    color: #666; 
+}
+
+.meal-description p {
+    font-size: 1rem; 
+    line-height: 1.5; 
+    color: #444; 
+    text-align: justify; 
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+}
+
+
+.home-icon {
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+  }
+ 
+  
