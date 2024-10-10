@@ -12,7 +12,7 @@ const MealImage = ({meal}) => {
     return (
         <div className="preview-meal" onClick={HandleClick}>
             <div className="card-background-meal">
-                <div id ="image-meal" style={{backgroundImage: `url(${meal.strMealThumb})`, }}>
+                <div data-testid = "imagen" id ="image-meal" style={{backgroundImage: `url(${meal.strMealThumb})`, }}>
                 </div>
             </div>    
         </div>

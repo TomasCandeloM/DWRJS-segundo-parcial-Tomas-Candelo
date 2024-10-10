@@ -9,6 +9,7 @@ import { UseMealContext } from '../../Context/mealctx';
 const MealList = () => {
     useMeals();
     const {meals, loading} = UseMealContext();
+    console.log("comida", meals);
 
     return (
         <div className="App">
