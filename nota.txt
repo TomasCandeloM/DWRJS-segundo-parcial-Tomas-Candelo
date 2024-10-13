@@ -1,0 +1,16 @@
+Calificación segundo parcial:
+
+Requisitos funcionales: 
+
+1. agregar lista principal usando el servicio FetchMealByFirstLetter valor (1.5) -> 1.5 OK
+2. agregar pagina de detalles usando servivio FetchMealById valor (1.5) -> 1.5 OK
+3. agregar funcionalidad de busqueda usando servicio SearchMealByName valor (2) -> 2 OK
+
+Requisitos técnicos:
+
+1. se evaluara el manejo del estado para esto usted podra usar(useContext, customHook, useReducer) -> Cumple
+2. se evaluara la correcta segregación y composición de componentes con la estructura de carpetas correspondiente -> Cumple
+
+Nota final: 5
+
+Excelente trabajo!
